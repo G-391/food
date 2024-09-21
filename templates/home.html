@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+<title>Local Healthy Foods</title>
+{% endblock %}
+{% block content %}
+<section class="section">
+    <div class="container">
+        <div class="box has-background-warning-light has-text-centered">
+            <h1 class="title is-4 font-prompt">อาหารพื้นเมืองที่มีสรรพคุณต่อสุขภาพตามวิถีภูมิปัญญาท้องถิ่นของจังหวัดอุบลราชธานี</h1>
+        </div>
+
+        <div class="columns is-centered is-multiline">
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="/myapp/myapp/assets/card-01.jpg" alt="เมี่ยงคำกลีบบัวหลวง" width="100%">
+                        </figure>
+                    </div>
+                    <div class="card-content has-text-centered">
+                        <h2 class="title is-5 font-mitr">เมี่ยงคำกลีบบัวหลวงแบบโบราณ</h2>
+                        <p class="font-sarabun">มีคุณค่าทางสมุนไพรสูง...</p>
+                        <a href="miangkham" class="button is-primary is-light">เรียนรู้เพิ่มเติม »</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="อาหาร/02 ปลาส้มทรงเครื่องสมุนไพร/card-02.jpg" alt="ปลาส้มทรงเครื่องสมุนไพร">
+                        </figure>
+                    </div>
+                    <div class="card-content has-text-centered">
+                        <h2 class="title is-5 font-mitr">ปลาส้มทรงเครื่องสมุนไพร</h2>
+                        <p class="font-sarabun">ปลาที่นำมาปรุงเป็นปลาส้ม...</p>
+                        <a href="fishorange" class="button is-primary is-light">เรียนรู้เพิ่มเติม »</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-one-third">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src='' alt="หมี่กะทิ">
+                        </figure>
+                    </div>
+                    <div class="card-content has-text-centered">
+                        <h2 class="title is-5 font-prompt">หมี่กะทิ</h2>
+                        <p class="font-sarabun">หมี่กะทิมีคุณค่าทางสมุนไพรสูง...</p>
+                        <a href="meekrathee" class="button is-primary is-light">เรียนรู้เพิ่มเติม »</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>รูปที่ 1</p>
+    </div>
+</footer>
+{% endblock %}
