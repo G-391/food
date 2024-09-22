@@ -29,7 +29,8 @@ urlpatterns = [
     path('meekrathee',views.meekrathee),
     path('miangkham',views.miangkham),
     path('fishorange',views.fishorange),
-
+    path('Lonkembaknat',views.Lonkembaknat),
+    path('kanghetphor',views.kanghetphor),
 ]
 
 # เพิ่มเส้นทางสำหรับไฟล์มีเดีย

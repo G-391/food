@@ -18,3 +18,9 @@ def miangkham(request):
 
 def fishorange(request):
     return render(request, 'fishorange.html')
+
+def Lonkembaknat(request):
+    return render(request, 'Lonkembaknat.html')
+
+def kanghetphor(request):
+    return render(request, 'kanghetphor.html')
